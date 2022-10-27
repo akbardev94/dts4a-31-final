@@ -10,7 +10,7 @@ const sliceNews = (set) => ({
     try {
       set({ isLoading: true });
       const { data } = await axios.get(
-        "https://newsapi.org/v2/everything?q=apple&from=2022-10-25&to=2022-10-25&sortBy=popularity&apiKey=68c76db806e249e289cd4e7bf1dd43f8"
+        "https://api.thenewsapi.com/v1/news/all?api_token=WhmLjRlDYYtynrVQ7frQEYpn8FzD8uoCDmIqzTIA"
       );
       set({ isLoading: false, news: data.data });
     } catch (err) {
@@ -22,7 +22,7 @@ const sliceNews = (set) => ({
     try {
       set({ isLoading: true });
       const pos = await axios.get(
-        `https://newsapi.org/v2/everything/${id}/?q=tesla&from=2022-09-26&sortBy=publishedAt&apiKey=68c76db806e249e289cd4e7bf1dd43f8`
+        `https://api.thenewsapi.com/v1/news/top/${id}?api_token=WhmLjRlDYYtynrVQ7frQEYpn8FzD8uoCDmIqzTIA`
       );
       set({ isLoading: false, news: pos.data });
     } catch (err) {

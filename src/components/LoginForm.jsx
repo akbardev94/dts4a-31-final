@@ -57,15 +57,16 @@ function LoginForm() {
             onChange={passwordHandler}
           />
           <Link to="/registrasi">
-            <p>Belum punya akun? regsitrasi sekarang </p>
+            <p>Registration Now</p>
           </Link>
           <Button
+            color="success"
             variant="contained"
             size="medium"
             type="submit"
             onClick={formSubmit}
           >
-            Kirim
+            Login
           </Button>
         </FormControl>
       </Box>
