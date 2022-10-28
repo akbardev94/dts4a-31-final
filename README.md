@@ -22,9 +22,7 @@ Submissions :
 
 Sebuah Aplikasi yang menampilkan berbagai macam berita dari API dari https://api.thenewsapi.com/ dimana API tersebut memberikan 5 artikel yang dapat ditampilkan dalam satu waktu dan memiliki 150 pull request.
 
-Video GIF Register, Login, dan HomePage : 
-
-Video GIF Detail, logOut dan Protected Component : 
+Video GIF Register, Login, dan HomePage : https://www.loom.com/share/71792ff7eb3a4b4d8afc043514dc7b24
 
 Link Live App : https://dts4a-31-final.netlify.app/login
 
