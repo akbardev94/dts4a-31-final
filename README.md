@@ -26,7 +26,7 @@ Video GIF Register, Login, dan HomePage :
 
 Video GIF Detail, logOut dan Protected Component : 
 
-Link Live App : 
+Link Live App : https://dts4a-31-final.netlify.app/login
 
 Link Api : https://api.thenewsapi.com/
 
