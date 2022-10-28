@@ -41,7 +41,7 @@ function Home(props) {
             style={{
               display: "flex",
               flexDirection: "row",
-              gap: 2,
+              gap: 4,
               flexWrap: "wrap",
             }}
           >

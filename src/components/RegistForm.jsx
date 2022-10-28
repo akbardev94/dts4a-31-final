@@ -57,7 +57,7 @@ function RegistForm(props) {
             <p>Login sekarang </p>
           </Link>
           <Button variant="contained" size="medium" onClick={formSubmit}>
-            Kirim
+            Register
           </Button>
         </FormControl>
       </Box>

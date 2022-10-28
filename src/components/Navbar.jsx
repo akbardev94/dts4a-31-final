@@ -29,12 +29,12 @@ export default function Navbar({ children }) {
 
   return (
     <>
-      <Box sx={{ flexGrow: 1 }}>
+      <Box sx={{ flexGrow: 1 }} color="warning">
         <AppBar position="static">
           <Toolbar>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-                Terbeken Hits
+                React News
               </Link>
             </Typography>
 

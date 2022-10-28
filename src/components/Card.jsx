@@ -13,7 +13,7 @@ export default function Cards(props) {
     navigate(`/${id}`);
   };
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 350 }}>
       <CardMedia
         component="img"
         height="140"
